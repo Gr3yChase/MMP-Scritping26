@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=MedievalSharp&display=swap');
+
+.almendra-display-regular, header, h1 {
+    font-family: "Almendra Display", serif;
+    font-weight: 999;
+    font-style: italic;
+}
+
+.medievalsharp-regular, body {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(92, 92, 92);
+}
+
+header {
+    color: brown;
+    text-align: center;
+    background-size: cover;
+    background-image: url("../Images/maintitle.png");
+    padding: 5%;
+    font-size: 45px;
+    text-shadow: 6px 0px 10px rgba(0,0,0,0.94);
+}
+
+#navigation {
+    background-color: rgb(70, 69, 69);
+    text-align: center;
+    padding: 15px;
+    -webkit-box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+}
+
+#navigation a {
+    color: brown;
+    text-decoration: none;
+    text-shadow: 6px 0px 10px rgba(0,0,0,0.94);
+}
+
+#navigation a:hover {
+    color: white;
+}
+
+section {
+    padding: 30px 20px;
+}
+
+section p {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+h3 {
+    color: rgb(180, 40, 40);
+    font-size: 28px;
+    text-shadow: 2px 2px 4px black;
+}
+
+section img {
+    max-width: 550px;
+    width: 70%;
+    margin-top: 20px;
+}
+
+section a {
+    color: rgb(190, 50, 50);
+}
+
+#about {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: rgb(230, 230, 230);
+    -webkit-box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    margin-top: 25px;
+}
+
+#impact {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: rgb(230, 230, 230);
+    -webkit-box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    margin-top: 25px;
+}
+
+#personality {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: rgb(230, 230, 230);
+    -webkit-box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    margin-top: 25px;
+}
+
+#abilities {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: rgb(230, 230, 230);
+    -webkit-box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    margin-top: 25px;
+}
+
+#relationships {
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: rgb(230, 230, 230);
+    -webkit-box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    margin-top: 25px;
+}
+
+section ul {
+    text-align: left;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+    color: rgb(224, 215, 215);
+    padding-bottom: 4%;
+    padding-top: 4%;
+    -webkit-box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    box-shadow: 1px 4px 14px 6px rgba(0,0,0,0.95);
+    font-size: 22px;
+}
+
+section h3{
+    text-align: center;
+}
+
+#refertoo {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#refertoo li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#refertoo a {
+    color: brown;
+    text-decoration: none;
+}
+
+#refertoo a:hover {
+    color: rgb(233, 231, 231);
+    text-decoration: none;
+}
+
+#about, #impact, #personality, #abilities, #relationships, footer {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
