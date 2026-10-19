@@ -1,0 +1,46 @@
+
+header {
+    background-image: url("../Images/furnitureImages/headerImage.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#headerbox {
+    background-color: rgb(255, 243, 226);
+    padding: 40px;
+}
+
+#headerbox h1 {
+    color: rgb(184, 137, 44);
+}
+
+button {
+    background-color: rgb(184, 137, 44);
+    color: white;
+    border: none;
+    padding: 15px;
+}
+
+#range {
+    padding-bottom: 50px;
+}
+
+#range h4 {
+    padding-top: 15px;
+}
+
+#products {
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(250, 243, 234);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer h6 {
+    color: gray;
+}
