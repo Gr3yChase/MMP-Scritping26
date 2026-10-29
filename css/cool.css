@@ -15,7 +15,7 @@ header {
     rgba(41, 43, 48, 0.8) 50%,
     rgba(41, 43, 48, 1) 85%
 ),
-        url(../Images/Community.PNG);
+        url(../images/Community.PNG);
     background-size: cover;
     background-position: center;
     min-height: 60vh;
