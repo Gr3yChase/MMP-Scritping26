@@ -1,0 +1,33 @@
+
+:root {
+    --bs-primary: #1c4a2a;
+    --bs-primary-rgb: 28, 74, 42;
+}
+
+
+.btn-outline-primary {
+    --bs-btn-color: #1c4a2a;
+    --bs-btn-border-color: #1c4a2a;
+    --bs-btn-hover-bg: #1c4a2a;
+    --bs-btn-hover-border-color: #1c4a2a;
+    --bs-btn-hover-color: white;
+}
+
+.hero-photo {
+    min-height: 390px;
+}
+
+.newsletter-photo {
+    min-height: 380px;
+}
+
+
+@media (max-width: 767.98px) {
+    .hero-photo {
+        min-height: 260px;
+    }
+
+    .newsletter-photo {
+        min-height: 250px;
+    }
+}

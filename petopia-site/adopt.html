@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Involved</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Shared CSS -->
+    <link href="css/petStyles.css" rel="stylesheet">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+
+    <!-----------------------Collapsing NavBar----------------------------->
+
+    <nav class="navbar navbar-expand-sm bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logoIcon.png" alt="Petopia Logo" width="35">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adopt.html">Adopt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="involved.html">Get Involved</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-----------------------Header----------------------------->
+
+    <header class="bg-primary text-white">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-md-6 p-4 p-md-5 d-flex flex-column justify-content-center">
+                    <h1 class="mb-4">Embrace Endless Love with Your New Furry Best Friend.</h1>
+
+                    <p>Every animal deserves a loving home. At Petopia, we help connect
+                        wonderful pets with caring families and give them a second chance at happiness.</p>
+                </div>
+
+                <div class="col-md-6 position-relative hero-photo">
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                        src="images/headerImages/adoptHeader.jpg" alt="Person with a dog">
+                </div>
+            </div> <!--Ends row-->
+        </div> <!--Ends container-->
+    </header>
+
+
+    <!-----------------------Main Content----------------------------->
+
+    <main>
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2> How to Adopt Your New Friend!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati porro vel hic? Nam asperiores
+                        ea magnam nobis adipisci velit! Aperiam!</p>
+                </div>
+                <div class="col-sm-6"> <img class="img-fluid" src="images/adopt/catCuddle.png" alt="cat is cuddling">
+                </div>
+            </div> <!--Ends row-->
+        </div>
+    </main>
+
+
+    <!-----------------------News Letter----------------------------->
+
+    <section>
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-md-6 position-relative newsletter-photo">
+                    <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover"
+                        src="images/newsletter.jpg" alt="Group of dogs and cats">
+                </div>
+
+                <div class="col-md-6 bg-primary text-white p-4 p-md-5 d-flex flex-column justify-content-center">
+                    <h2 class="mb-4">Subscribe to Our Newsletter for Pet Updates and News!</h2>
+
+                    <p class="mb-4">Stay up to date on adoption opportunities, volunteer events,
+                        and stories from Petopia's furry friends.</p>
+
+                    <form class="row g-2" onsubmit="return false;">
+                        <div class="col-lg-8">
+                            <input type="email" class="form-control" placeholder="Your email address"
+                                aria-label="Email address" required>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="submit" class="btn btn-light w-100">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----------------------Footer----------------------------->
+
+    <footer class="bg-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <a href="index.html" class="text-decoration-none text-primary fw-bold">
+                        <img src="images/logoIcon.png" alt="" width="24"> Petopia
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="https://www.facebook.com/" class="text-primary mx-2" aria-label="Facebook">
+                        <i class="bi bi-facebook fs-5"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="text-primary mx-2" aria-label="Instagram">
+                        <i class="bi bi-instagram fs-5"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="text-primary mx-2" aria-label="YouTube">
+                        <i class="bi bi-youtube fs-5"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="small text-muted mt-4 mb-0">&copy; 2026 Petopia. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
